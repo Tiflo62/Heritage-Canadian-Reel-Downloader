@@ -1,4 +1,4 @@
-# Heritage Canadian War Diary Downloader
+# Héritage Canadiana War Diary Downloader
 
 ![Logo](https://heritage.canadiana.ca/static/images/heritage-color.svg)
 
