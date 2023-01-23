@@ -1,4 +1,4 @@
-# Héritage Canadiana Reel Downloader v1.0
+# Canadiana Héritage Reel Downloader v1.0
 
 ![Logo](https://heritage.canadiana.ca/static/images/heritage-color.svg)
 
