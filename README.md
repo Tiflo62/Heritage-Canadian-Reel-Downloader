@@ -11,7 +11,7 @@ This collection consists of war diaries for Canadian units during the Second Wor
 The website only allows to download each page of a reel, not the entire reel.
 Using this python script you can do it :thumbsup:
 
-## Usage
+## Usage/Example
 Really ?
 
 ## Author
