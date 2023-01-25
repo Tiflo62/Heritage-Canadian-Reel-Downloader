@@ -7,11 +7,13 @@ def check_url(url):
     match = re.match(r"https://heritage\.canadiana\.ca/view/oocihm\.lac_reel", url)
     return match
 
-#dossier de DL
+#DL folder
 folder = input("Enter a foldername: ")
-if not os.path.exists(folder):
-    os.makedirs(folder)
-print("Files will be downloaded in '% s' folder" % folder)
+script_path = os.path.dirname(os.path.realpath(__file__))
+folder_path = os.path.join(script_path, folder)
+if not os.path.exists(folder_path):
+    os.makedirs(folder_path)
+print("Files will be downloaded in '%s' " % folder_path)
 
 #URL du reel
 url = input("Enter a URL (ex:https://heritage.canadiana.ca/view/oocihm.lac_reel_t10533/1): ")
