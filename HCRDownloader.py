@@ -11,7 +11,7 @@ def check_url(url):
 folder = input("Enter a foldername: ")
 if not os.path.exists(folder):
     os.makedirs(folder)
-print("Directory '% s' created!" % folder)
+print("Files will be downloaded in '% s' folder" % folder)
 
 #URL du reel
 url = input("Enter a URL (ex:https://heritage.canadiana.ca/view/oocihm.lac_reel_t10533/1): ")
