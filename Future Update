@@ -1,0 +1,31 @@
+Imports System.Net
+
+
+
+    Private WithEvents bgWorker As New BackgroundWorker
+    Private downloadCount As Integer = 0
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        bgWorker.WorkerReportsProgress = True
+        bgWorker.RunWorkerAsync()
+    End Sub
+
+    Private Sub bgWorker_DoWork(sender As Object, e As DoWorkEventArgs) Handles bgWorker.DoWork
+        ' File URL to download
+        Dim fileUrl As String = "http://www.example.com/file.zip"
+
+        ' Set file destination
+        Dim fileDestination As String = "C:\Downloads\file.zip"
+
+        ' Download the file
+        Using client As New WebClient()
+            client.DownloadFile(fileUrl, fileDestination)
+        End Using
+
+        downloadCount += 1
+        bgWorker.ReportProgress(downloadCount)
+    End Sub
+
+    Private Sub bgWorker_ProgressChanged(sender As Object, e As ProgressChangedEventArgs) Handles bgWorker.ProgressChanged
+        Label1.Text = "Files Downloaded: " & e.ProgressPercentage
+    End Sub
