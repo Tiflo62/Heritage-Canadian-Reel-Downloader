@@ -10,6 +10,10 @@ The Héritage project is a 10-year initiative to digitize and make accessible on
 The website only allows to download each page of a reel, not the entire reel.
 Using this program you can now do it :thumbsup:
 
+## Screenshots
+
+<img width="469" alt="2" src="https://user-images.githubusercontent.com/74988027/217652905-4715ddea-de04-478f-bd18-ce4fbaa65e26.png">
+<img width="335" alt="3" src="https://user-images.githubusercontent.com/74988027/217652914-0744b952-77b2-4651-a100-79baefd1bf88.png">
 
 
 ## Author
