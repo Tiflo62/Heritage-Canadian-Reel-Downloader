@@ -10,9 +10,7 @@ The Héritage project is a 10-year initiative to digitize and make accessible on
 The website only allows to download each page of a reel, not the entire reel.
 Using this python script you can now do it :thumbsup:
 
-## Files
-- VB.Net Executable
-- Python script
+
 
 ## Author
 
